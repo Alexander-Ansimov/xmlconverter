@@ -1,0 +1,6 @@
+convenient name         ,tag name     ,xPath pattern
+convenient CallId       ,CallId       ,/LyncDiagnostics/ConnectionInfo/CallId
+convenient TimeStamp    ,TimeStamp    ,/LyncDiagnostics/ConnectionInfo/TimeStamp
+convenient ReflexivePort,ReflexivePort,/LyncDiagnostics/Invite/Callee/ReflexivePort
+convenient IP           ,IP           ,/LyncDiagnostics/QualityUpdate/To/IP
+convenient NOTAG        ,NOTAG        ,/LyncDiagnostics/QualityUpdate/To/NOTAG
