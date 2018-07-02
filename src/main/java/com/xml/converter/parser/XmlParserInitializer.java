@@ -65,6 +65,7 @@ public class XmlParserInitializer {
             try {
                 o.setXPathExpression(xpath.compile(o.getXpathPattern()));
             } catch (XPathExpressionException e) {
+                log.error("not valid xpath pattern -> " + o.getXpathPattern());
                 e.printStackTrace();
             }
         });

@@ -22,7 +22,7 @@ public class XmlParserTest {
     private XmlParser xmlParser;
 
     @Test
-    public void parseFromXml() throws SAXException, ParserConfigurationException, XPathExpressionException, IOException {
+    public void parseFromXml() throws SAXException, IOException {
 
         Map<String, String> resultMap = xmlParser.parseFromXml(XmlConst.xml_1);
         resultMap.forEach((k, v) -> System.out.println(k + "  :  " + v));
