@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
-public class CdnCController {
+public class XmlController {
 
     @Autowired
     private XmlHandler handler;
 
-    @PostMapping
+    @PostMapping("/")
     public void postMessage(@RequestBody String xmlData) {
         handler.handle(xmlData);
     }
